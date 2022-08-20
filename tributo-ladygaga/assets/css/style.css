@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: background 0.5s linear, color 0.5s linear;
+    font-family: 'Amiri';
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+
+/*VERSÃO DARK*/
+body.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark label {
+    background-color: white;
+
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Crimson Text';
+}
+
+h2 {
+    font-family: 'Great Vibes';
+}
+
+.dark_mode {
+    align-self: flex-end;
+    position: absolute;
+    top: auto;
+    margin-right: 10px;
+}
+
+.dark_mode label {
+  background-color: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.5s linear;
+}
+
+
+.dark_mode input {
+    visibility: hidden;
+}
+
+/*BANNER*/
+
+#banner {
+    background-color: #898686;
+    background-image: url("https://wallpaperaccess.com/full/22824.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.container {
+    width: 920px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.c_banner {
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    width: 200px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: #6d6d6d 3px 2px 8px;
+}
+
+/*MEIO*/
+
+.column {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description {
+    padding: 10px 0px;
+    margin-bottom: 25px;
+}
+
+.description strong {
+    color: #d7bc22;
+}
+
+.description a {
+    color: #a6a6a6;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.description a:hover {
+    color:#ff259d;
+}
+
+p {
+    line-height: 21px;
+    text-align: justify;
+}
+
+.video {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video figcaption {
+    padding: 5px;
+    font-style: italic;
+}
+
+embed {
+    width: 600px;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.timeline {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.timeline li {
+    padding: 5px;
+}
+
+.image1 {
+    rotate: 8deg;
+    box-shadow: 10px 5px 20px #ababab;
+    cursor: pointer;
+    transition: all 1.2s;
+}
+
+.image1:hover {
+    box-shadow: 10px 5px 20px #ff259d;
+}
+
+.madness_title {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.madness_body {
+    align-self: center;
+    margin: 0px 25px;
+
+}
+
+.test {
+    background-color: #ffde25;
+    flex: 1;
+}
+
+
+
